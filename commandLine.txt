@@ -1,0 +1,22 @@
+./lab5 Tests/in50.txt > out.txt
+diff out.txt Tests/out50.txt
+./lab5 Tests/in54.txt > out.txt
+diff out.txt Tests/out54.txt
+./lab5 Tests/in55.txt > out.txt
+diff out.txt Tests/out55.txt
+./lab5 Tests/in56.txt > out.txt
+diff out.txt Tests/out56.txt
+./lab5 Tests/in58.txt > out.txt
+diff out.txt Tests/out58.txt
+./lab5 Tests/in59.txt > out.txt
+diff out.txt Tests/out59.txt
+
+
+./lab5 Tests/in61.txt > out.txt
+diff out.txt Tests/out61.txt
+./lab5 Tests/in62.txt > out.txt
+diff out.txt Tests/out62.txt
+./lab5 Tests/in64.txt > out.txt
+diff out.txt Tests/out64.txt
+
+g++ -Wall -Werror -std=c++17 -g *.cpp -o lab5
